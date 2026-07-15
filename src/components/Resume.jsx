@@ -13,7 +13,7 @@ function Resume() {
         className="gradient-card"
       >
         <div className="glass-card rounded-2xl p-8 text-center">
-          <p className="mb-6 text-slate-300">
+          <p className="mb-6 text-slate-600 transition-colors duration-300 dark:text-slate-300">
             Nalam Venkata Naga Vamsi Krishna — latest resume (PDF)
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">

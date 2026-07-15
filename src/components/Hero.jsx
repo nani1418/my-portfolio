@@ -41,15 +41,15 @@ function Hero() {
       >
         <div className="grid items-center gap-10 lg:grid-cols-[1.4fr_1fr]">
           <div>
-            <p className="mb-3 text-sm uppercase tracking-[0.2em] text-fuchsia-300">Welcome to my portfolio</p>
-            <h1 className="text-4xl font-black leading-tight text-white md:text-6xl">
+            <p className="mb-3 text-sm uppercase tracking-[0.2em] text-fuchsia-600 dark:text-fuchsia-300">Welcome to my portfolio</p>
+            <h1 className="text-4xl font-black leading-tight text-slate-900 transition-colors duration-300 dark:text-white md:text-6xl">
               I&apos;m {owner.name}
             </h1>
-            <p className="mt-5 text-xl text-cyan-300 md:text-2xl">
+            <p className="mt-5 text-xl text-cyan-600 dark:text-cyan-300 md:text-2xl">
               {displayText}
               <span className="animate-pulse">|</span>
             </p>
-            <p className="mt-6 max-w-3xl text-slate-300">{owner.tagline}</p>
+            <p className="mt-6 max-w-3xl text-slate-600 transition-colors duration-300 dark:text-slate-300">{owner.tagline}</p>
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a href="#resume" className="glow-button">
@@ -68,7 +68,7 @@ function Hero() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label={label}
-                  className="rounded-full border border-white/20 bg-white/10 p-3 text-white transition-all duration-300 hover:-translate-y-1 hover:border-cyan-300/70 hover:bg-fuchsia-500/30 hover:shadow-[0_0_16px_rgba(34,211,238,0.5)]"
+                  className="rounded-full border border-slate-300 bg-slate-100/50 p-3 text-slate-700 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-400/70 hover:bg-fuchsia-500/10 hover:shadow-[0_0_16px_rgba(34,211,238,0.3)] dark:border-white/20 dark:bg-white/10 dark:text-white dark:hover:bg-fuchsia-500/30 dark:hover:shadow-[0_0_16px_rgba(34,211,238,0.5)]"
                 >
                   <Icon />
                 </a>

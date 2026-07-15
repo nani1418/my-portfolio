@@ -11,8 +11,15 @@ html {
 body {
   margin: 0;
   font-family: Inter, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #020617;
+  background: #f8fafc;
+  color: #0f172a;
   overflow-x: hidden;
+  transition: background-color 300ms, color 300ms;
+}
+
+html.dark body {
+  background: #020617;
+  color: #f8fafc;
 }
 
 h1,
@@ -24,7 +31,7 @@ h3 {
 
 @layer components {
   .glass-card {
-    @apply relative border border-white/10 bg-white/5 shadow-glass backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:bg-white/[0.08] hover:shadow-[0_0_30px_rgba(99,102,241,0.35)];
+    @apply relative border border-slate-200/50 bg-white/70 shadow-glass backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:bg-white/90 hover:shadow-[0_0_30px_rgba(99,102,241,0.2)] dark:border-white/10 dark:bg-white/5 dark:hover:bg-white/[0.08] dark:hover:shadow-[0_0_30px_rgba(99,102,241,0.35)];
   }
 
   .gradient-card {
@@ -36,7 +43,7 @@ h3 {
   }
 
   .ghost-button {
-    @apply rounded-xl border border-white/25 bg-white/10 px-6 py-3 font-semibold text-white transition-all duration-300 hover:border-cyan-300/70 hover:bg-white/20 hover:shadow-[0_0_20px_rgba(217,70,239,0.35)];
+    @apply rounded-xl border border-slate-300 bg-slate-100/50 px-6 py-3 font-semibold text-slate-700 transition-all duration-300 hover:border-cyan-400/70 hover:bg-slate-200/50 hover:shadow-[0_0_20px_rgba(217,70,239,0.2)] dark:border-white/25 dark:bg-white/10 dark:text-white dark:hover:border-cyan-300/70 dark:hover:bg-white/20 dark:hover:shadow-[0_0_20px_rgba(217,70,239,0.35)];
   }
 
   .section-shell {

@@ -17,7 +17,7 @@ function Certifications() {
             className="gradient-card"
           >
             <div className="glass-card rounded-2xl p-6 text-center">
-              <h3 className="text-lg font-semibold text-white">{certification.title}</h3>
+              <h3 className="text-lg font-semibold text-slate-900 transition-colors duration-300 dark:text-white">{certification.title}</h3>
               {certification.certificateUrl ? (
                 <div className="mt-4 flex justify-center gap-3">
                   <a

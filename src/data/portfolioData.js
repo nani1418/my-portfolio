@@ -48,7 +48,7 @@ export const skills = [
   {
     category: 'Backend',
     icon: FaServer,
-    items: ['Python', 'Node.js'],
+    items: ['Java', 'Python', 'Node.js'],
   },
   {
     category: 'Database',
@@ -63,7 +63,7 @@ export const skills = [
   {
     category: 'Tools',
     icon: FaTools,
-    items: ['GitHub', 'VS Code', 'Cursor AI'],
+    items: ['GitHub', 'VS Code'],
   },
 ]
 
@@ -109,6 +109,15 @@ export const experience = [
 
 export const projects = [
   {
+    title: 'SecureKYC Validator',
+    description:
+      'Developed a real-time identification document verification engine for validating PAN and Aadhaar formats. Features structured format validation, a secure Java Spring Boot backend, and a responsive React client interface.',
+    techStack: ['React.js', 'Spring Boot', 'Java', 'Tailwind CSS'],
+    category: 'Web',
+    image: '/securekyc-validator.png',
+    githubUrl: 'https://github.com/nani1418/SecureKYC-Validator',
+  },
+  {
     title: 'Learning Hub - E-Learning Platform',
     description:
       'Built a scalable e-learning platform supporting 100+ users with a responsive UI and improved database query performance by 30%. Developed REST APIs, user analytics, and a recommendation system using modular architecture.',
@@ -147,6 +156,7 @@ export const certifications = [
   },
   {
     title: 'AWS Certified Cloud Practitioner (AWS CP)',
+    certificateUrl: '/aws-cp-certificate.png',
   },
   {
     title: 'ServiceNow Certified System Administrator (CSA)',

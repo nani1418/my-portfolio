@@ -15,20 +15,20 @@ function About() {
       >
         <article className="gradient-card">
           <div className="glass-card rounded-2xl p-6">
-          <h3 className="mb-3 text-xl font-semibold text-white">Professional Summary</h3>
-          <p className="text-slate-300">{about.summary}</p>
+            <h3 className="mb-3 text-xl font-semibold text-slate-900 transition-colors duration-300 dark:text-white">Professional Summary</h3>
+            <p className="text-slate-600 transition-colors duration-300 dark:text-slate-300">{about.summary}</p>
           </div>
         </article>
         <article className="gradient-card">
           <div className="glass-card rounded-2xl p-6">
-          <h3 className="mb-3 text-xl font-semibold text-white">Career Goals</h3>
-          <p className="text-slate-300">{about.goals}</p>
+            <h3 className="mb-3 text-xl font-semibold text-slate-900 transition-colors duration-300 dark:text-white">Career Goals</h3>
+            <p className="text-slate-600 transition-colors duration-300 dark:text-slate-300">{about.goals}</p>
           </div>
         </article>
         <article className="gradient-card">
           <div className="glass-card rounded-2xl p-6">
-          <h3 className="mb-3 text-xl font-semibold text-white">Passion</h3>
-          <p className="text-slate-300">{about.passion}</p>
+            <h3 className="mb-3 text-xl font-semibold text-slate-900 transition-colors duration-300 dark:text-white">Passion</h3>
+            <p className="text-slate-600 transition-colors duration-300 dark:text-slate-300">{about.passion}</p>
           </div>
         </article>
       </motion.div>
